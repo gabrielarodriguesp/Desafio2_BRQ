@@ -1,0 +1,97 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Bacon",
+      "price": 53.5,
+      "ingredients": "Molho, Muçarela, Ovo e Bacon.",
+      "img": "https://files.menudino.com/cardapios/20666/267.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Calabresa",
+      "price": 55,
+      "ingredients": "Molho, Muçarela e Calabresa e Cebola.",
+      "img": "https://files.menudino.com/cardapios/20666/245.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Frango Champignon",
+      "price": 54.5,
+      "ingredients": "Molho, Muçarela, Frango e Champignon.",
+      "img": "https://files.menudino.com/cardapios/20666/294.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Vegetariana",
+      "price": 54.5,
+      "ingredients": "Molho, Muçarela, Tomate Seco e Brócolis.",
+      "img": "https://files.menudino.com/cardapios/20666/328.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Frango Requeijão",
+      "price": 56,
+      "ingredients": "Molho, Muçarela, Frango e Requeijão.",
+      "img": "https://files.menudino.com/cardapios/20666/253.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Frango Bacon Cheddar",
+      "price": 58,
+      "ingredients": "Molho, Muçarela, Frango, Bacon e Cheddar.",
+      "img": "https://files.menudino.com/cardapios/20666/314.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Banana",
+      "price": 58,
+      "ingredients": "Muçarela, Banana, Canela e Açúcar de Confeiteiro.",
+      "img": "https://files.menudino.com/cardapios/20666/300.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate",
+      "price": 58,
+      "ingredients": "Muçarela, Chocolate ao Leite e Granulado.",
+      "img": "https://files.menudino.com/cardapios/20666/302.jpg"
+    }
+  ],
+  "bebidas": [
+    {
+      "id": 1,
+      "name": "Coca-cola Zero",
+      "price": 9.5,
+      "volume": "2 Litros",
+      "img": "https://pizzariadobairro.com.br/wp-content/uploads/2020/11/Coca-Cola-Zero-garrafa-2l.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Guaraná",
+      "price": 8,
+      "volume": "1,5 Litro",
+      "img": "https://pizzariadobairro.com.br/wp-content/uploads/2020/11/Guarana-garrafa-15l.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Coca-cola",
+      "price": 10,
+      "volume": "2 Litros",
+      "img": "https://pizzariadobairro.com.br/wp-content/uploads/2020/11/Coca-Cola-garrafa-2l.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Coca-cola Lata",
+      "price": 5.5,
+      "volume": "350ml",
+      "img": "https://pizzariadobairro.com.br/wp-content/uploads/2020/11/Coca-Cola-Lata.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cerveja Long Neck",
+      "price": 12.5,
+      "volume": "350ml",
+      "img": "https://pizzariadobairro.com.br/wp-content/uploads/2020/11/Cerveja-long-neck-Stella-Artois.jpg"
+    }
+  ]
+}
