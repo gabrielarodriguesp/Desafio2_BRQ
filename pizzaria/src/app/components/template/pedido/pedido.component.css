@@ -1,0 +1,22 @@
+.pedido {
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+
+  z-index: 100;
+}
+
+.pedido-btn {
+  padding-bottom: 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #ff033c;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.pedido-btn:hover{
+  font-size: 18px;
+}

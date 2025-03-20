@@ -1,0 +1,64 @@
+<h2 mat-dialog-title class="txt-center">Formulário de Pedido</h2>
+<mat-dialog-content class="mat-typography">
+  <form #pedidoForm="ngForm">
+    <p>
+      <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)]="nome" name="nome" required #nomeModel="ngModel">
+        <mat-error *ngIf="nomeModel.invalid && nomeModel.touched">Nome é obrigatório</mat-error>
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field>
+        <mat-label>Bairro</mat-label>
+        <input matInput [(ngModel)]="bairro" name="bairro" required #bairroModel="ngModel">
+        <mat-error *ngIf="bairroModel.invalid && bairroModel.touched">Bairro é obrigatório</mat-error>
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field>
+        <mat-label>Rua</mat-label>
+        <input matInput [(ngModel)]="rua" name="rua" required #ruaModel="ngModel">
+        <mat-error *ngIf="ruaModel.invalid && ruaModel.touched">Rua é obrigatória</mat-error>
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field class="numero">
+        <mat-label>Número</mat-label>
+        <input matInput [(ngModel)]="numero" name="numero" required #numeroModel="ngModel">
+        <mat-error *ngIf="numeroModel.invalid && numeroModel.touched">Número é obrigatório</mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="complemento">
+        <mat-label>Complemento</mat-label>
+        <input matInput [(ngModel)]="complemento" name="complemento">
+        <!-- <mat-error *ngIf="complementoModel.invalid && complementoModel.touched">Complemento é obrigatório</mat-error> -->
+      </mat-form-field>
+    </p>
+
+    <p>
+      <label>Forma de Pagamento:</label>
+      <mat-radio-group [(ngModel)]="pagamento" name="pagamento" required #pagamentoModel="ngModel"> <br>
+        <mat-radio-button value="Pix">Pix</mat-radio-button> <br>
+        <mat-radio-button value="Debito">Cartão de Débito</mat-radio-button> <br>
+        <mat-radio-button value="Credito">Cartão de Crédito</mat-radio-button>
+      </mat-radio-group>
+      <mat-error *ngIf="pagamentoModel.invalid && pagamentoModel.touched">Escolha uma forma de pagamento</mat-error>
+    </p>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions class="btn-dialog">
+  <button mat-raised-button [disabled]="pedidoForm.invalid" (click)="concluirPedido()">
+    <mat-icon class="color-pink dialog-icon">shopping_cart</mat-icon>
+    <span>Concluir</span>
+  </button>
+
+  <button mat-raised-button mat-dialog-close>
+    <mat-icon class="color-pink dialog-icon">cancel</mat-icon>
+    <span class="span-icon">Fechar</span>
+  </button>
+</mat-dialog-actions>
