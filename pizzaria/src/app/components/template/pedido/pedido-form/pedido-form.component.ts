@@ -35,7 +35,7 @@ export class PedidoFormComponent implements OnInit {
   pagamento: string = '';
   pedidoDetails: string = '';
 
-  private apiUrl = 'https://rahxsun55i.execute-api.sa-east-1.amazonaws.com/stage-api/pedido';
+  private apiUrl = ''; // endereço aws + /stage-api/pedido
 
   constructor(
     private pedidoService: PedidoService,
